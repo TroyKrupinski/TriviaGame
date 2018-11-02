@@ -5,6 +5,18 @@ var audio2 = new Audio('Assets/images/Victory.mp3')
 var correct = 0;
 var incorrect = 0;
 var unanswered = 0;
+var image1 = new Image();
+image1.src = "Assets/images/image1.jpg";
+var image2 = new Image();
+image2.src = "Assets/images/image2.png";
+var image3 = new Image();
+image3.src = "Assets/images/image3.jpg";
+var image4 = new Image();
+image4.src = "Assets/images/image4.jpg";
+var image5 = new Image()
+image5.src = "Assets/images/image5.jpg";
+
+
 selected = false;
 $(".ques").hide();
 var startbutton = $("<button>")
@@ -67,7 +79,7 @@ $(startbutton).on("click", function(){
                 $(".gamecontainer").html('');
                 var win = $("<div>")
                $(win).append("<h2>Correct! Fnatic was the team that won Season 1 in 2011</h2>");
-               $(win).append("<img src = http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/styles/centered/public/fnatic3.jpg?itok=Q5iqhvJH>")
+               $(win).append(image1); 
              
                $(".gamecontainer").append(win)
                stop();
@@ -91,7 +103,7 @@ $(startbutton).on("click", function(){
                 $(".gamecontainer").html('');
          var win = $("<div>")
         $(win).append("<h2>Incorrect! " + name + " did not win Season 1, Fnatic was the team that won Season 1 in 2011</h2>");
-        $(win).append("<img src = http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/styles/centered/public/fnatic3.jpg?itok=Q5iqhvJH>")
+        $(win).append(image1); 
       
         $(".gamecontainer").append(win)
         stop();
@@ -125,7 +137,7 @@ $(startbutton).on("click", function(){
          $(".gamecontainer").html('');
          var win = $("<div>")
         $(win).append("<h2>Times UP! Fnatic was the team that won Season 1 in 2011</h2>");
-        $(win).append("<img src = http://riot-web-cdn.s3-us-west-1.amazonaws.com/lolesports/s3fs-public/styles/centered/public/fnatic3.jpg?itok=Q5iqhvJH>")
+        $(win).append(image1); 
       
         $(".gamecontainer").append(win)
         stop();
@@ -214,7 +226,7 @@ $(startbutton).on("click", function(){
                 $(".gamecontainer").html('');
                 var win = $("<div>")
                $(win).append("<h2>Correct! YellOwStaR has won 5 trophies! Making him the most decorated</h2>");
-               $(win).append("<img src = https://d1u5p3l4wpay3k.cloudfront.net/lolesports_gamepedia_en/b/bc/FNC_Yellowstar_2016_Summer.png>")
+               $(win).append(image2); 
              
                $(".gamecontainer").append(win)
                stop();
@@ -238,7 +250,7 @@ $(startbutton).on("click", function(){
                 $(".gamecontainer").html('');
          var win = $("<div>")
         $(win).append("<h2>Incorrect! " + name + " is not the most decorated. YellOwStaR is and has won 5 trophies! Making him the most decorated</h2>");
-        $(win).append("<img src = https://d1u5p3l4wpay3k.cloudfront.net/lolesports_gamepedia_en/b/bc/FNC_Yellowstar_2016_Summer.png>")
+        $(win).append(image2); 
       
         $(".gamecontainer").append(win)
         stop();
@@ -272,7 +284,7 @@ $(startbutton).on("click", function(){
          $(".gamecontainer").html('');
          var win = $("<div>")
         $(win).append("<h2>Times UP! YellOwStaR has won 5 trophies! Making him the most decorated</h2>");
-        $(win).append("<img src = https://d1u5p3l4wpay3k.cloudfront.net/lolesports_gamepedia_en/b/bc/FNC_Yellowstar_2016_Summer.png>")
+        $(win).append(image2); 
       
         $(".gamecontainer").append(win)
         stop();
@@ -358,7 +370,7 @@ $(startbutton).on("click", function(){
                 $(".gamecontainer").html('');
                 var win = $("<div>")
                $(win).append("<h2>Correct! Bjergsen has the most kills of all time in NA!</h2>");
-               $(win).append("<img src = http://slingshotesports.com/wp-content/uploads/2017/09/36850055831_593464af6c_b.jpg>")
+               $(win).append(image3); 
              
                $(".gamecontainer").append(win)
                stop();
@@ -382,7 +394,7 @@ $(startbutton).on("click", function(){
                 $(".gamecontainer").html('');
          var win = $("<div>")
         $(win).append("<h2>Incorrect! " + name + " does not have the most kills. Bjergsen has the most kills of all time in NA!</h2>");
-        $(win).append("<img src = http://slingshotesports.com/wp-content/uploads/2017/09/36850055831_593464af6c_b.jpg>")
+        $(win).append(image3); 
       
         $(".gamecontainer").append(win)
         stop();
@@ -416,7 +428,7 @@ $(startbutton).on("click", function(){
          $(".gamecontainer").html('');
          var win = $("<div>")
         $(win).append("<h2>Times UP! Bjergsen has the most kills of all time in NA!</h2>");
-        $(win).append("<img src = http://slingshotesports.com/wp-content/uploads/2017/09/36850055831_593464af6c_b.jpg>")
+        $(win).append(image3); 
       
         $(".gamecontainer").append(win)
         stop();
@@ -498,7 +510,7 @@ $(startbutton).on("click", function(){
                 $(".gamecontainer").html('');
                 var win = $("<div>")
                $(win).append("<h2>Correct! Team Liquid won Spring 2018.</h2>");
-               $(win).append("<img src = https://statics.sportskeeda.com/editor/2018/09/b85cd-15376533977181-800.jpg>")
+               $(win).append(image4); 
              
                $(".gamecontainer").append(win)
                stop();
@@ -522,7 +534,7 @@ $(startbutton).on("click", function(){
                 $(".gamecontainer").html('');
          var win = $("<div>")
         $(win).append("<h2>Incorrect! " + name + " did not win NA LCS. Team Liquid won Spring 2018.</h2>");
-        $(win).append("<img src = https://statics.sportskeeda.com/editor/2018/09/b85cd-15376533977181-800.jpg>")
+        $(win).append(image4); 
       
         $(".gamecontainer").append(win)
         stop();
@@ -556,7 +568,7 @@ $(startbutton).on("click", function(){
          $(".gamecontainer").html('');
          var win = $("<div>")
         $(win).append("<h2>Times UP! Team Liquid won Spring 2018.</h2>");
-        $(win).append("<img src = https://statics.sportskeeda.com/editor/2018/09/b85cd-15376533977181-800.jpg>")
+        $(win).append(image4); 
       
         $(".gamecontainer").append(win)
         stop();
@@ -641,7 +653,7 @@ $(startbutton).on("click", function(){
                 $(".gamecontainer").html('');
                 var win = $("<div>")
                $(win).append("<h2>Correct! Faker plays for SKT T1.</h2>");
-               $(win).append("<img src = https://pbs.twimg.com/media/C39H7VGWcAAV0P1.jpg>")
+               $(win).append(image5); 
              
                $(".gamecontainer").append(win)
                stop();
@@ -665,7 +677,7 @@ $(startbutton).on("click", function(){
                 $(".gamecontainer").html('');
          var win = $("<div>")
         $(win).append("<h2>Incorrect! " + name + " is not the team Faker plays for. Faker plays for SKT T1.</h2>");
-        $(win).append("<img src = https://pbs.twimg.com/media/C39H7VGWcAAV0P1.jpg>")
+        $(win).append(image5); 
       
         $(".gamecontainer").append(win)
         stop();
@@ -699,7 +711,7 @@ $(startbutton).on("click", function(){
          $(".gamecontainer").html('');
          var win = $("<div>")
         $(win).append("<h2>Times UP! Faker plays for SKT T1.</h2>");
-        $(win).append("<img src = https://pbs.twimg.com/media/C39H7VGWcAAV0P1.jpg>")
+        $(win).append(image5); 
       
         $(".gamecontainer").append(win)
         stop();
