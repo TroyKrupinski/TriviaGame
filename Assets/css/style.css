@@ -1,0 +1,62 @@
+body{
+    background-image: url("http://s1.picswalls.com/wallpapers/2015/11/21/league-of-legends-hd-wallpapers_111242969_289.jpg");
+    background-size: 100%;
+}
+.gamecontainer{
+    text-align: center;
+    height: 900px;
+    width: 1200px;
+    background-size: 100%;
+    border-radius: 10px;
+    background-image: url('https://webgradients.com/public/webgradients_png/056%20Shady%20Water.png');
+    padding: 20px;
+    margin: 20px;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ques{
+    position: relative;
+    top: 10%;
+}
+h2{
+    
+}
+.questions{
+    font-size:30px;
+    font-weight: bold;
+}
+.answers{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.answersH{
+    background-color: red;
+border: 20px;
+border-color: red;
+    font-size: 30px;
+}
+.sbutton{
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+
+}
+h3{
+    font-size: 34px;
+    font-weight: bold;
+}
+.playagainbutton{
+    font-size: 24px;
+    height: 100px;
+    width: 200px;
+}
+.playagainbuttonhuge{
+    font-size: 48px;
+    height: 200px;
+    width: 400px;
+    font-weight: bold;
+}
