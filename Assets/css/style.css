@@ -1,5 +1,5 @@
 body{
-    background-image: url("http://s1.picswalls.com/wallpapers/2015/11/21/league-of-legends-hd-wallpapers_111242969_289.jpg");
+    background-image: url("../images/league2.jpg");
     background-size: 100%;
 }
 .gamecontainer{
@@ -8,7 +8,7 @@ body{
     width: 1200px;
     background-size: 100%;
     border-radius: 10px;
-    background-image: url('https://webgradients.com/public/webgradients_png/056%20Shady%20Water.png');
+    background-image: url('../images/g.png');
     padding: 20px;
     margin: 20px;
 }
